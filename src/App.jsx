@@ -13,6 +13,7 @@ import Counter from "./components/Counter";
 import './App.css';
 import Home from "./components/Home";
 import Example from './components/Hooks';
+import index from './componentsnav/navbar';
 const App = () => {
   return (
     <div className="App">
