@@ -12,8 +12,6 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
 import React from "react";
-import './style.css';
-import React from "react";
 import Counter from "./components/Counter";
 import './App.css';
 import Home from "./components/Home";
@@ -24,7 +22,7 @@ const App = () => {
     <Router>
       
 <div>
-
+<Home/>
 <Navbar />
 <Routes>
 <Route path = '/' element={<Home />} />
