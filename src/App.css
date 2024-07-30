@@ -1,49 +1,38 @@
+ #root {
+max-width: 1280;
+margin: 0%;
+padding: 2rem;
+text-align: center;
+}
 
-*{
-    box-sizing: border-box;
-    }
-    
-    body{
-    margin: auto;
-    }
-    
-    .container{
-    margin: 1rem;
-    text-align: center;
-    }
-    
-    .nav{
-    background-color: burlywood;
-    color: chocolate;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    gap: 2rem;
-    padding: 0 1rem;
-    }
-    
-    .site-title{
-    font-size: 2 rem;
-    }
-    .nav ul{
-    padding:0;
-    margin: 0;
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-    }
-    .nav a{
-    color: inherit;
-    text-decoration: wavy;
-    height: 100%;
-    align-items: center;
-    padding: .25rem;
-    }
-    .nav li.active{
-    background-color: darkgray;
-    }
-    .nav li:hover{
-        background-color: cornflowerblue;
-    }
+.logo {
+height: 6rem;
+padding: 1.5rem;
+will-change: auto;
+transition:filter 300ms;
+}
 
-    
+.logo.hover {
+filter: drop-shadow(0 0 2rem pink);
+}
+
+.logo.react:hover {
+filter: drop-shadow(0 0 2rem orange);
+}
+
+@keyframes logo-spin{
+from{
+transform: rotate(0deg);
+}
+to{
+transform: rotate(360deg);
+}
+}
+
+@media
+( prefers-reduced-motion: no-preference){
+a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+} 
+}
+

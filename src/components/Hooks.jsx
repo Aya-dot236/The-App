@@ -17,7 +17,7 @@ class Example extends React.Component {
     }
 
 }
-export default Example
+export default Example;
 
 
 

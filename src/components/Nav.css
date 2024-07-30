@@ -1,0 +1,50 @@
+.body{
+    background-color: indianred;
+    color: cadetblue;
+    font-family: sans-serif;
+    text-align: justify;
+}  
+     .body{
+        margin: auto;
+        }
+         
+        .App{
+        background-color: burlywood;
+        color: chocolate;
+        display: flex;
+        justify-content: right;
+        align-items: baseline;
+        gap: 2rem;
+        padding: 0 1rem;
+        }
+        
+        .App ul{
+        padding:0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+        }
+
+        .App a{
+        color: inherit;
+        height: 100%;
+        align-items: center;
+        padding: .25rem;
+        }
+
+        .App li.active{
+        background-color: cadetblue;
+        }
+        
+        .App li:hover{
+        background-color: darkslateblue;
+        } 
+     
+        
+
+
+
+
+
+   
